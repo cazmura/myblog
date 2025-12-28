@@ -6,3 +6,5 @@ theme = 'hugo-bearblog'
 [params]
   mainSections = ["blog"]
   hideMadeWithLine = true
+  description = "ブログの説明をここに書く"
+  images = ["images/og-default.png"]

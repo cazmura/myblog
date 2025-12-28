@@ -8,7 +8,7 @@ tags = ["challenge", "obsidian"]
 新しくブログを開設してみた。
 
 私は、日々のタスク管理やメモを Obsidian に集約している。
-ブログも集約できると、色々取り回しが便利そうだったので、https://ingau.me/blog/how-i-write-my-blogs-in-obsidian-and-publish-instantly/ の記事を参考に、Obsidian からブログを作成し、公開するワークフローを組んでみた。
+ブログも集約できると色々取り回しが便利そうだったので、https://ingau.me/blog/how-i-write-my-blogs-in-obsidian-and-publish-instantly/ の記事を参考に、Obsidian からブログを作成し、公開するワークフローを組んでみた。
 
 hugo-bearblog のテーマを使いこなしていきたい。
 https://github.com/janraasch/hugo-bearblog
