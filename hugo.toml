@@ -1,4 +1,4 @@
-baseURL = 'https://myblog.muraho-cazunari-pr.workers.dev/'
+baseURL = 'https://myblog.cazmura.workers.dev/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'hugo-bearblog'
