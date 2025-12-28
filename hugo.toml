@@ -5,3 +5,4 @@ theme = 'hugo-bearblog'
 
 [params]
   mainSections = ["blog"]
+  hideMadeWithLine = true
