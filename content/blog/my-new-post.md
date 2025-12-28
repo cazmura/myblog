@@ -7,7 +7,7 @@ date = "2025-12-28T23:44:04+09:00"
 #
 # description = "An optional description for SEO. If not provided, an automatically created summary will be used."
 
-tags = []
+tags = ["test"]
 +++
 
 This is a page about »My New Post«.
