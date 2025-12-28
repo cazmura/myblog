@@ -1,4 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://myblog.muraho-cazunari-pr.workers.dev/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'hugo-bearblog'
+
+[params]
+  mainSections = ["blog"]
