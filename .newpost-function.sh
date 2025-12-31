@@ -1,0 +1,79 @@
+#!/bin/bash
+
+# The Cat APIを使って猫のOGP画像付き記事を作成する関数
+# 使い方: newpost "記事のタイトル"
+
+newpost() {
+    local title="${1:-untitled}"
+    local date=$(date +"%Y-%m-%dT%H:%M:%S+09:00")
+    local filename="${title}.md"
+    local filepath="/Users/kazunari/Obshidian/00_myblog/content/blog/${filename}"
+
+    # The Cat API キー（環境変数から取得、なければDEMO-API-KEY）
+    local cat_api_key="${CAT_API_KEY:-DEMO-API-KEY}"
+
+    # 画像ファイル名を生成
+    local timestamp=$(date +%Y%m%d%H%M%S)
+    local image_filename="cat-${timestamp}.jpg"
+    local image_path="/Users/kazunari/Obshidian/00_myblog/static/images/${image_filename}"
+
+    echo "🐱 猫画像を取得中..."
+
+    # The Cat APIから猫画像URLを取得
+    local cat_image_url=$(curl -s -H "x-api-key: ${cat_api_key}" \
+        "https://api.thecatapi.com/v1/images/search?size=med&mime_types=jpg&format=json&order=RANDOM&limit=1" \
+        | grep -o '"url":"[^"]*' | sed 's/"url":"//')
+
+    if [ -z "$cat_image_url" ]; then
+        echo "❌ 猫画像の取得に失敗しました（デフォルト設定で記事を作成します）"
+        # 画像取得失敗時は images フィールドを空にする
+        cat > "${filepath}" <<EOF
++++
+title = "${title}"
+date = "${date}"
+draft = false
+tags = []
+images = []
++++
+
+記事の内容をここに書く
+EOF
+    else
+        echo "✅ 猫画像を取得: ${cat_image_url}"
+        echo "💾 画像を保存中..."
+
+        # 画像をダウンロード
+        curl -s -o "${image_path}" "${cat_image_url}"
+
+        if [ -f "${image_path}" ]; then
+            echo "✅ 画像を保存: ${image_filename}"
+            # 画像パス付きで記事を作成
+            cat > "${filepath}" <<EOF
++++
+title = "${title}"
+date = "${date}"
+draft = false
+tags = []
+images = ["/images/${image_filename}"]
++++
+
+記事の内容をここに書く
+EOF
+        else
+            echo "❌ 画像の保存に失敗しました（画像なしで記事を作成します）"
+            cat > "${filepath}" <<EOF
++++
+title = "${title}"
+date = "${date}"
+draft = false
+tags = []
+images = []
++++
+
+記事の内容をここに書く
+EOF
+        fi
+    fi
+
+    echo "✓ Created: ${filepath}"
+}
