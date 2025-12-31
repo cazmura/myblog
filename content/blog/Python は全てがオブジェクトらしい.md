@@ -2,7 +2,7 @@
 title = "Python は全てがオブジェクトらしい"
 date = "2025-12-31T11:28:14+09:00"
 draft = false
-tags = [Python, knowledge]
+tags = ["Python", "knowledge"]
 +++
 
 Python は全てがオブジェクトらしい。

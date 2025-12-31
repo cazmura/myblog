@@ -1,5 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://myblog.cazmura.workers.dev/</link><description>Recent content on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 29 Dec 2025 00:20:58 +0900</lastBuildDate><atom:link href="https://myblog.cazmura.workers.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://myblog.cazmura.workers.dev/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://myblog.cazmura.workers.dev/about/</guid><description>&lt;h1 id="about"&gt;About&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>https://myblog.cazmura.workers.dev/</link><description>Recent content on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 2025 11:28:14 +0900</lastBuildDate><atom:link href="https://myblog.cazmura.workers.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://myblog.cazmura.workers.dev/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://myblog.cazmura.workers.dev/about/</guid><description>&lt;h1 id="about"&gt;About&lt;/h1&gt;
 &lt;p&gt;このブログについての説明をここに書きます。&lt;/p&gt;
 &lt;p&gt;自己紹介や、ブログの目的、扱うトピックなどを記載してください。&lt;/p&gt;</description></item><item><title>Project</title><link>https://myblog.cazmura.workers.dev/project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://myblog.cazmura.workers.dev/project/</guid><description>&lt;h1 id="project"&gt;Project&lt;/h1&gt;
 &lt;p&gt;これまでに取り組んだプロジェクトや作品を紹介します。&lt;/p&gt;
-&lt;p&gt;個人プロジェクトや、成果物へのリンクなどを記載してください。&lt;/p&gt;</description></item><item><title>My New Post2</title><link>https://myblog.cazmura.workers.dev/blog/my-new-post2/</link><pubDate>Mon, 29 Dec 2025 00:20:58 +0900</pubDate><guid>https://myblog.cazmura.workers.dev/blog/my-new-post2/</guid><description>&lt;p&gt;This is a page about »My New Post2«.&lt;/p&gt;</description></item><item><title>My New Post</title><link>https://myblog.cazmura.workers.dev/blog/my-new-post/</link><pubDate>Sun, 28 Dec 2025 23:44:04 +0900</pubDate><guid>https://myblog.cazmura.workers.dev/blog/my-new-post/</guid><description>&lt;p&gt;This is a page about »My New Post«.&lt;/p&gt;</description></item><item><title/><link>https://myblog.cazmura.workers.dev/blog/%E7%84%A1%E9%A1%8C%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://myblog.cazmura.workers.dev/blog/%E7%84%A1%E9%A1%8C%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB/</guid><description/></item></channel></rss>
+&lt;p&gt;個人プロジェクトや、成果物へのリンクなどを記載してください。&lt;/p&gt;</description></item><item><title>Python は全てがオブジェクトらしい</title><link>https://myblog.cazmura.workers.dev/blog/python-%E3%81%AF%E5%85%A8%E3%81%A6%E3%81%8C%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%89%E3%81%97%E3%81%84/</link><pubDate>Wed, 31 Dec 2025 11:28:14 +0900</pubDate><guid>https://myblog.cazmura.workers.dev/blog/python-%E3%81%AF%E5%85%A8%E3%81%A6%E3%81%8C%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%89%E3%81%97%E3%81%84/</guid><description>&lt;p&gt;Python は全てがオブジェクトらしい。
+&lt;a href="https://djangostart.com/745/"&gt;https://djangostart.com/745/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;変数は、箱というより、オブジェクトを特定するためのポインタのようなものらしい。&lt;/p&gt;
+&lt;p&gt;これを知ったきっかけは、以下のようなコードを見た時に「宣言した変数がなぜメソッドを使えるんだろう？」というところから調べてみたところ、今回の Python の仕様に行き着いた。&lt;/p&gt;</description></item><item><title>記法のテスト</title><link>https://myblog.cazmura.workers.dev/blog/%E8%A8%98%E6%B3%95%E3%81%AE%E3%83%86%E3%82%B9%E3%83%88/</link><pubDate>Mon, 29 Dec 2025 01:19:49 +0900</pubDate><guid>https://myblog.cazmura.workers.dev/blog/%E8%A8%98%E6%B3%95%E3%81%AE%E3%83%86%E3%82%B9%E3%83%88/</guid><description>&lt;p&gt;まずはテーブル&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;カラム1&lt;/th&gt;
+ &lt;th&gt;カラム２&lt;/th&gt;
+ &lt;th&gt;カラム3&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;A&lt;/td&gt;
+ &lt;td&gt;B&lt;/td&gt;
+ &lt;td&gt;C&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;次はコードブロック&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;&amp;#34;Hello World&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;次はマーメード図&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code class="language-mermaid" data-lang="mermaid"&gt;graph LR
+ A[テスト1] --&amp;gt; B[テスト2]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;次は見出し
+#あいうえお&lt;/p&gt;
+&lt;h2 id="あいうえお"&gt;あいうえお&lt;/h2&gt;
+&lt;h3 id="あいうえお-1"&gt;あいうえお&lt;/h3&gt;
+&lt;h4 id="あいうえお-2"&gt;あいうえお&lt;/h4&gt;
+&lt;h5 id="あいうえお-3"&gt;あいうえお&lt;/h5&gt;
+&lt;p&gt;次はリスト&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;あいうえお
+&lt;ul&gt;
+&lt;li&gt;あいうえお
+&lt;ul&gt;
+&lt;li&gt;あいうえお&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;あいうえお&lt;/li&gt;
+&lt;li&gt;あいうえお&lt;/li&gt;
+&lt;li&gt;あいうえお
+&lt;ol&gt;
+&lt;li&gt;あいうえお
+&lt;ol&gt;
+&lt;li&gt;かきくけこ&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;さて、どうなる&lt;/p&gt;</description></item><item><title>新しくブログを開設</title><link>https://myblog.cazmura.workers.dev/blog/new-blog-opening/</link><pubDate>Mon, 29 Dec 2025 00:57:50 +0900</pubDate><guid>https://myblog.cazmura.workers.dev/blog/new-blog-opening/</guid><description>&lt;p&gt;新しくブログを開設してみた。&lt;/p&gt;
+&lt;p&gt;私は、日々のタスク管理やメモを Obsidian に集約している。
+ブログも集約できると色々取り回しが便利そうだったので、https://ingau.me/blog/how-i-write-my-blogs-in-obsidian-and-publish-instantly/ の記事を参考に、Obsidian からブログを作成し、公開するワークフローを組んでみた。&lt;/p&gt;
+&lt;p&gt;hugo-bearblog のテーマを使いこなしていきたい。
+&lt;a href="https://github.com/janraasch/hugo-bearblog"&gt;https://github.com/janraasch/hugo-bearblog&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
