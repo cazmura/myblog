@@ -2,7 +2,7 @@
 title = "Homebrew と pip などの違い"
 date = "2026-01-01T12:45:57+09:00"
 draft = false
-tags = ["環境構築", AIによる生成]
+tags = ["環境構築", AIが生成したもの]
 images = []
 +++
 
