@@ -3,7 +3,7 @@ title = "{{ replace .File.ContentBaseName "-" " " | title }}"
 date = "{{ .Date }}"
 draft = false
 tags = []
-images = ["/images/article-specific-image.png"]
+images = []
 +++
 
 記事の内容をここに書く
