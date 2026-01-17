@@ -13,3 +13,17 @@ in 演算子というものがある。
 for 文で使われている場合「要素を1つずつ取り出して変数に入れる」という働きになる。
 
 それ以外の場合「要素が中にあるか？（True/False）」という働きになる。
+
+### サンプルコード
+
+```
+target_text = 'hello'
+count_dict = {}
+for char in target_text:
+    if char in count_dict:
+        count_dict[char] += 1
+    else:
+        count_dict[char] = 1
+print(count_dict)
+```
+
